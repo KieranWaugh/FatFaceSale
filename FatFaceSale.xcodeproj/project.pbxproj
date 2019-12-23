@@ -3,18 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17D278A06A40226507E96316 /* Pods_FatFaceSale_FatFaceSaleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF880A1469479949E0768C0E /* Pods_FatFaceSale_FatFaceSaleUITests.framework */; };
+		22DF0E1EB3B293AB3E8A10BB /* Pods_FatFaceSale.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F441F4F21BE21FC9256796F /* Pods_FatFaceSale.framework */; };
+		705A6D01CC9E765DD23BFD92 /* Pods_FatFaceSaleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 318C85985E4B197DEE187DA8 /* Pods_FatFaceSaleTests.framework */; };
+		C42B8C6123B0DEE30038D6B0 /* InSaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42B8C6023B0DEE30038D6B0 /* InSaleViewController.swift */; };
+		C42B8C6323B0F2AB0038D6B0 /* SharedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42B8C6223B0F2AB0038D6B0 /* SharedData.swift */; };
+		C42B8C6523B0F8AE0038D6B0 /* NotSaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42B8C6423B0F8AE0038D6B0 /* NotSaleViewController.swift */; };
 		C4F175FD23B0113F003558BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F175FC23B0113F003558BE /* AppDelegate.swift */; };
 		C4F175FF23B0113F003558BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F175FE23B0113F003558BE /* SceneDelegate.swift */; };
-		C4F1760123B0113F003558BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F1760023B0113F003558BE /* ViewController.swift */; };
 		C4F1760423B0113F003558BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F1760223B0113F003558BE /* Main.storyboard */; };
 		C4F1760623B01141003558BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4F1760523B01141003558BE /* Assets.xcassets */; };
 		C4F1760923B01141003558BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F1760723B01141003558BE /* LaunchScreen.storyboard */; };
 		C4F1761423B01141003558BE /* FatFaceSaleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F1761323B01141003558BE /* FatFaceSaleTests.swift */; };
 		C4F1761F23B01141003558BE /* FatFaceSaleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F1761E23B01141003558BE /* FatFaceSaleUITests.swift */; };
+		C4F1762D23B016A7003558BE /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F1762C23B016A7003558BE /* ScannerViewController.swift */; };
+		C4F1762F23B03952003558BE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4F1762E23B03952003558BE /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +42,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C4F175F923B0113F003558BE /* FatFaceSale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FatFaceSale.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		318C85985E4B197DEE187DA8 /* Pods_FatFaceSaleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FatFaceSaleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41AB831C2CC654E1558C4D35 /* Pods-FatFaceSale.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FatFaceSale.debug.xcconfig"; path = "Target Support Files/Pods-FatFaceSale/Pods-FatFaceSale.debug.xcconfig"; sourceTree = "<group>"; };
+		52DA221D79675339F6E6F5BC /* Pods-FatFaceSaleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FatFaceSaleTests.release.xcconfig"; path = "Target Support Files/Pods-FatFaceSaleTests/Pods-FatFaceSaleTests.release.xcconfig"; sourceTree = "<group>"; };
+		6F441F4F21BE21FC9256796F /* Pods_FatFaceSale.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FatFaceSale.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A9F47308C57FC54760DE6FC /* Pods-FatFaceSaleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FatFaceSaleTests.debug.xcconfig"; path = "Target Support Files/Pods-FatFaceSaleTests/Pods-FatFaceSaleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B8C5C83F68E54413E04BC959 /* Pods-FatFaceSale-FatFaceSaleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FatFaceSale-FatFaceSaleUITests.release.xcconfig"; path = "Target Support Files/Pods-FatFaceSale-FatFaceSaleUITests/Pods-FatFaceSale-FatFaceSaleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C42B8C6023B0DEE30038D6B0 /* InSaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InSaleViewController.swift; sourceTree = "<group>"; };
+		C42B8C6223B0F2AB0038D6B0 /* SharedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedData.swift; sourceTree = "<group>"; };
+		C42B8C6423B0F8AE0038D6B0 /* NotSaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotSaleViewController.swift; sourceTree = "<group>"; };
+		C4F175F923B0113F003558BE /* FATFACE Sale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FATFACE Sale.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F175FC23B0113F003558BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4F175FE23B0113F003558BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C4F1760023B0113F003558BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C4F1760323B0113F003558BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4F1760523B01141003558BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4F1760823B01141003558BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +64,11 @@
 		C4F1761A23B01141003558BE /* FatFaceSaleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FatFaceSaleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F1761E23B01141003558BE /* FatFaceSaleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FatFaceSaleUITests.swift; sourceTree = "<group>"; };
 		C4F1762023B01141003558BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4F1762C23B016A7003558BE /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		C4F1762E23B03952003558BE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CF880A1469479949E0768C0E /* Pods_FatFaceSale_FatFaceSaleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FatFaceSale_FatFaceSaleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC62336DA454924E66628D8 /* Pods-FatFaceSale-FatFaceSaleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FatFaceSale-FatFaceSaleUITests.debug.xcconfig"; path = "Target Support Files/Pods-FatFaceSale-FatFaceSaleUITests/Pods-FatFaceSale-FatFaceSaleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D458E2335E3651CF3D626380 /* Pods-FatFaceSale.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FatFaceSale.release.xcconfig"; path = "Target Support Files/Pods-FatFaceSale/Pods-FatFaceSale.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22DF0E1EB3B293AB3E8A10BB /* Pods_FatFaceSale.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				705A6D01CC9E765DD23BFD92 /* Pods_FatFaceSaleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +92,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17D278A06A40226507E96316 /* Pods_FatFaceSale_FatFaceSaleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17614614DA3E9D9E62B1FBD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F441F4F21BE21FC9256796F /* Pods_FatFaceSale.framework */,
+				CF880A1469479949E0768C0E /* Pods_FatFaceSale_FatFaceSaleUITests.framework */,
+				318C85985E4B197DEE187DA8 /* Pods_FatFaceSaleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87316A0B567E60651F94488D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41AB831C2CC654E1558C4D35 /* Pods-FatFaceSale.debug.xcconfig */,
+				D458E2335E3651CF3D626380 /* Pods-FatFaceSale.release.xcconfig */,
+				CFC62336DA454924E66628D8 /* Pods-FatFaceSale-FatFaceSaleUITests.debug.xcconfig */,
+				B8C5C83F68E54413E04BC959 /* Pods-FatFaceSale-FatFaceSaleUITests.release.xcconfig */,
+				7A9F47308C57FC54760DE6FC /* Pods-FatFaceSaleTests.debug.xcconfig */,
+				52DA221D79675339F6E6F5BC /* Pods-FatFaceSaleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C4F175F023B0113F003558BE = {
 			isa = PBXGroup;
 			children = (
@@ -83,13 +129,15 @@
 				C4F1761223B01141003558BE /* FatFaceSaleTests */,
 				C4F1761D23B01141003558BE /* FatFaceSaleUITests */,
 				C4F175FA23B0113F003558BE /* Products */,
+				87316A0B567E60651F94488D /* Pods */,
+				17614614DA3E9D9E62B1FBD5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		C4F175FA23B0113F003558BE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C4F175F923B0113F003558BE /* FatFaceSale.app */,
+				C4F175F923B0113F003558BE /* FATFACE Sale.app */,
 				C4F1760F23B01141003558BE /* FatFaceSaleTests.xctest */,
 				C4F1761A23B01141003558BE /* FatFaceSaleUITests.xctest */,
 			);
@@ -100,12 +148,16 @@
 			isa = PBXGroup;
 			children = (
 				C4F175FC23B0113F003558BE /* AppDelegate.swift */,
+				C42B8C6223B0F2AB0038D6B0 /* SharedData.swift */,
 				C4F175FE23B0113F003558BE /* SceneDelegate.swift */,
-				C4F1760023B0113F003558BE /* ViewController.swift */,
 				C4F1760223B0113F003558BE /* Main.storyboard */,
+				C42B8C6023B0DEE30038D6B0 /* InSaleViewController.swift */,
+				C4F1762C23B016A7003558BE /* ScannerViewController.swift */,
+				C42B8C6423B0F8AE0038D6B0 /* NotSaleViewController.swift */,
 				C4F1760523B01141003558BE /* Assets.xcassets */,
 				C4F1760723B01141003558BE /* LaunchScreen.storyboard */,
 				C4F1760A23B01141003558BE /* Info.plist */,
+				C4F1762E23B03952003558BE /* GoogleService-Info.plist */,
 			);
 			path = FatFaceSale;
 			sourceTree = "<group>";
@@ -135,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4F1762323B01141003558BE /* Build configuration list for PBXNativeTarget "FatFaceSale" */;
 			buildPhases = (
+				0549232B65A9D8D3779CD203 /* [CP] Check Pods Manifest.lock */,
 				C4F175F523B0113F003558BE /* Sources */,
 				C4F175F623B0113F003558BE /* Frameworks */,
 				C4F175F723B0113F003558BE /* Resources */,
+				5F3F9B9CAAB9A0A0F60E71B3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -145,13 +199,14 @@
 			);
 			name = FatFaceSale;
 			productName = FatFaceSale;
-			productReference = C4F175F923B0113F003558BE /* FatFaceSale.app */;
+			productReference = C4F175F923B0113F003558BE /* FATFACE Sale.app */;
 			productType = "com.apple.product-type.application";
 		};
 		C4F1760E23B01141003558BE /* FatFaceSaleTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4F1762623B01141003558BE /* Build configuration list for PBXNativeTarget "FatFaceSaleTests" */;
 			buildPhases = (
+				60E769D20545441967ACBD57 /* [CP] Check Pods Manifest.lock */,
 				C4F1760B23B01141003558BE /* Sources */,
 				C4F1760C23B01141003558BE /* Frameworks */,
 				C4F1760D23B01141003558BE /* Resources */,
@@ -170,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4F1762923B01141003558BE /* Build configuration list for PBXNativeTarget "FatFaceSaleUITests" */;
 			buildPhases = (
+				52A9CB205DC9F722C3127774 /* [CP] Check Pods Manifest.lock */,
 				C4F1761623B01141003558BE /* Sources */,
 				C4F1761723B01141003558BE /* Frameworks */,
 				C4F1761823B01141003558BE /* Resources */,
+				F3C97A6A6FE31160DD9A1024 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4F1760923B01141003558BE /* LaunchScreen.storyboard in Resources */,
+				C4F1762F23B03952003558BE /* GoogleService-Info.plist in Resources */,
 				C4F1760623B01141003558BE /* Assets.xcassets in Resources */,
 				C4F1760423B0113F003558BE /* Main.storyboard in Resources */,
 			);
@@ -254,14 +312,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0549232B65A9D8D3779CD203 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FatFaceSale-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52A9CB205DC9F722C3127774 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FatFaceSale-FatFaceSaleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F3F9B9CAAB9A0A0F60E71B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FatFaceSale/Pods-FatFaceSale-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FatFaceSale/Pods-FatFaceSale-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FatFaceSale/Pods-FatFaceSale-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60E769D20545441967ACBD57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FatFaceSaleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3C97A6A6FE31160DD9A1024 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FatFaceSale-FatFaceSaleUITests/Pods-FatFaceSale-FatFaceSaleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FatFaceSale-FatFaceSaleUITests/Pods-FatFaceSale-FatFaceSaleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FatFaceSale-FatFaceSaleUITests/Pods-FatFaceSale-FatFaceSaleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C4F175F523B0113F003558BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4F1760123B0113F003558BE /* ViewController.swift in Sources */,
+				C42B8C6323B0F2AB0038D6B0 /* SharedData.swift in Sources */,
 				C4F175FD23B0113F003558BE /* AppDelegate.swift in Sources */,
 				C4F175FF23B0113F003558BE /* SceneDelegate.swift in Sources */,
+				C42B8C6523B0F8AE0038D6B0 /* NotSaleViewController.swift in Sources */,
+				C4F1762D23B016A7003558BE /* ScannerViewController.swift in Sources */,
+				C42B8C6123B0DEE30038D6B0 /* InSaleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +596,7 @@
 		};
 		C4F1762423B01141003558BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41AB831C2CC654E1558C4D35 /* Pods-FatFaceSale.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -441,8 +606,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kieranwaugh.FatFaceSale.FatFaceSale;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieranwaugh.FatFaceSale;
+				PRODUCT_NAME = "FATFACE Sale";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,6 +615,7 @@
 		};
 		C4F1762523B01141003558BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D458E2335E3651CF3D626380 /* Pods-FatFaceSale.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -459,8 +625,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kieranwaugh.FatFaceSale.FatFaceSale;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieranwaugh.FatFaceSale;
+				PRODUCT_NAME = "FATFACE Sale";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -468,6 +634,7 @@
 		};
 		C4F1762723B01141003558BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A9F47308C57FC54760DE6FC /* Pods-FatFaceSaleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +657,7 @@
 		};
 		C4F1762823B01141003558BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52DA221D79675339F6E6F5BC /* Pods-FatFaceSaleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +680,7 @@
 		};
 		C4F1762A23B01141003558BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFC62336DA454924E66628D8 /* Pods-FatFaceSale-FatFaceSaleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +701,7 @@
 		};
 		C4F1762B23B01141003558BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8C5C83F68E54413E04BC959 /* Pods-FatFaceSale-FatFaceSaleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
